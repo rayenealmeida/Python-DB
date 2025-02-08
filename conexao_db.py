@@ -24,4 +24,4 @@ def atualizar_registro(conexao, cursor, Nome, email, id):
     cursor.execute("UPDATE clientes SET Nome=?, email=? WHERE id=?;", data)
     conexao.commit()
 
-atualizar_registro(conexao, cursor, 'Maria Aparecida', 'mariaApe@gmail.com', 1)
+atualizar_registro(conexao, cursor, 'Maria Alice', 'mariaAli@gmail.com', 4)
